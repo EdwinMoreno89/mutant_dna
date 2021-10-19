@@ -56,4 +56,12 @@ Ejemplo (Caso mutante):
 String[] dna = {"ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"};
 
 ### endPoint
+POST → http://mutantdnaapi-env.eba-h4xceyuc.us-east-2.elasticbeanstalk.com/mutant/
+{
+“dna”:["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]
+}
+
+GET → http://mutantdnaapi-env.eba-h4xceyuc.us-east-2.elasticbeanstalk.com/stats/
+
+
 
