@@ -8,28 +8,18 @@ cuales representa cada base nitrogenada del ADN.
 
 ### No-Mutante 
 A T G C G A 
-
 C A G T G C
-
 T T A T T T
-
 A G A C G G
-
 G C G T C A
-
 T C A C T G
 
 ### Mutante
 A T G C G A
-
 C A G T G C
-
 T T A T G T
-
 A G A A G G
-
 C C C C T A
-
 T C A C T G
 
 Sabrás si un humano es mutante, si encuentras más de una secuencia de cuatro letras
@@ -52,7 +42,7 @@ Si desea ejecutarlo desde una base de datos local, debe cambiar el archivo prope
 
 * cree una carpeta en donde va a clonar el proyecto.
 * posicionese sobre la ruta de la carpeta desde la linea de comandos
-* Ejecute el comando gh repo clone EdwinMoreno89/mutant_dna
+* Ejecute el comando `gh repo clone EdwinMoreno89/mutant_dna`
 * Una vez clonado el proyecto, abralo como proyecto maven existente en el espacio de trabajo e importelo
 * al dar click sobre el proyecto ejecute Run As Maven Install para descargar las librerias.
 * luego Ejecutar como: spring-boot:run
