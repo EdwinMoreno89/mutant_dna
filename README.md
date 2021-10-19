@@ -1,7 +1,7 @@
 # API REST que detecta si un humano es mutante basándose en su secuencia de ADN.
 
 ## Entorno
-* Java 1.8``
+* Java 1.8
 * MySql
 * Maven
 * JUnit5 
@@ -11,6 +11,8 @@ Desde mysql ejecutar el contenido del archivo: /mutant/src/main/resources/schema
 Si desea ejecutarlo desde una base de datos local, debe cambiar el archivo properties: /mutant/src/main/resources/application.properties con la url de localhost o donde se quiera ejecutar el dump de la base de datos.
 
 ## Descarga del código fuente clonando el proyecto git desde Java
+
+https://github.com/EdwinMoreno89/mutant_dna.git
 
 Ejecutar Run As Maven Install para descargar las librerias
 luego Ejecutar como spring-boot:run para disponibilizar el servidor con spring-boot
