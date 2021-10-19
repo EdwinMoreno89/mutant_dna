@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.mercadolibre.mutant.application.usecases;
+package com.mercadolibre.application.usecases;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,8 +10,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import com.mercadolibre.mutant.domain.model.Mutant;
-import com.mercadolibre.mutant.domain.model.MutantRepository;
+import com.mercadolibre.domain.model.Mutant;
+import com.mercadolibre.domain.model.MutantRepository;
 
 /**
  * @author Edwin Moreno Cristancho Caso de Uso para validar ADN de Mutantes

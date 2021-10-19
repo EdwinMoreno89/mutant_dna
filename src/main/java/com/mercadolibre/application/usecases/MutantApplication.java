@@ -1,4 +1,4 @@
-package com.mercadolibre.mutant;
+package com.mercadolibre.application.usecases;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -16,7 +16,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @Configuration
 @EnableJpaRepositories("com.mercadolibre.mutant.infrastructure")
-@SpringBootApplication(scanBasePackages = "com.mercadolibre.mutant")
+@SpringBootApplication(scanBasePackages = "com.mercadolibre")
 public class MutantApplication implements CommandLineRunner{
 
 

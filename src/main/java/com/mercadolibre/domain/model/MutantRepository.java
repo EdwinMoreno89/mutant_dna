@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.mercadolibre.mutant.domain.model;
+package com.mercadolibre.domain.model;
 
 import java.util.AbstractMap;
 import java.util.HashMap;

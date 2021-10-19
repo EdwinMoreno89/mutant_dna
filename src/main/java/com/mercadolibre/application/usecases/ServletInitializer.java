@@ -1,4 +1,4 @@
-package com.mercadolibre.mutant;
+package com.mercadolibre.application.usecases;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

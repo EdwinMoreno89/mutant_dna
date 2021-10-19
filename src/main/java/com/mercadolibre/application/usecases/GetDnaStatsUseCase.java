@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.mercadolibre.mutant.application.usecases;
+package com.mercadolibre.application.usecases;
 
 
 import org.apache.logging.log4j.LogManager;
@@ -11,8 +11,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import com.mercadolibre.mutant.domain.model.MutantRepository;
-import com.mercadolibre.mutant.application.usecases.GetDnaStatsUseCase;
+import com.mercadolibre.application.usecases.GetDnaStatsUseCase;
+import com.mercadolibre.domain.model.MutantRepository;
 
 /**
  * @author Usuario

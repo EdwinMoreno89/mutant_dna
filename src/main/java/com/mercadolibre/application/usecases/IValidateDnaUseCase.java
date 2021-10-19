@@ -1,8 +1,8 @@
-package com.mercadolibre.mutant.application.usecases;
+package com.mercadolibre.application.usecases;
 
 import org.springframework.http.ResponseEntity;
 
-import com.mercadolibre.mutant.domain.model.Mutant;
+import com.mercadolibre.domain.model.Mutant;
 
 public interface IValidateDnaUseCase {
 

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.mercadolibre.mutant.infrastructure.controllers;
+package com.mercadolibre.infrastructure.controllers;
 
 
 import org.apache.logging.log4j.LogManager;
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mercadolibre.mutant.application.usecases.ValidateDnaUseCase;
-import com.mercadolibre.mutant.domain.model.Mutant;
+import com.mercadolibre.application.usecases.ValidateDnaUseCase;
+import com.mercadolibre.domain.model.Mutant;
 
 /**
  * @author Edwin Moreno Cristancho

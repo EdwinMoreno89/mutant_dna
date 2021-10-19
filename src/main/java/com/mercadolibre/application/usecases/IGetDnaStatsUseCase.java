@@ -1,4 +1,4 @@
-package com.mercadolibre.mutant.application.usecases;
+package com.mercadolibre.application.usecases;
 
 import org.springframework.http.ResponseEntity;
 

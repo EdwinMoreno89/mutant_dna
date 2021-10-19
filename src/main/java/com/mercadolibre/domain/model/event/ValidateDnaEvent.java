@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.mercadolibre.mutant.domain.model.event;
+package com.mercadolibre.domain.model.event;
 
 /**
  * @author Usuario

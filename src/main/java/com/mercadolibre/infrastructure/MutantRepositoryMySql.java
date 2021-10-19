@@ -1,4 +1,4 @@
-package com.mercadolibre.mutant.infrastructure;
+package com.mercadolibre.infrastructure;
 
 import java.util.AbstractMap;
 
@@ -11,9 +11,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.support.JdbcDaoSupport;
 import org.springframework.stereotype.Repository;
 
-import com.mercadolibre.mutant.domain.model.MutantRepository;
-import com.mercadolibre.mutant.domain.model.Stat;
-import com.mercadolibre.mutant.infrastructure.MutantRepositoryMySql;
+import com.mercadolibre.domain.model.MutantRepository;
+import com.mercadolibre.domain.model.Stat;
+import com.mercadolibre.infrastructure.MutantRepositoryMySql;
 
 @Repository
 public class MutantRepositoryMySql extends JdbcDaoSupport implements MutantRepository {
