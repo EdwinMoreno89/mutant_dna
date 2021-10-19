@@ -76,14 +76,15 @@ Ejecute una petición POST con una cadena de caracteres No Mutante para obtener 
 ![image](https://user-images.githubusercontent.com/32916973/137904006-80b12087-00c9-46f2-86f2-1c52fdf163c5.png)
 
 
+
 ### endPoint Api desplegada en aws elastic beanstalk
 
-POST → http://mutantdnaapi-env.eba-h4xceyuc.us-east-2.elasticbeanstalk.com/mutant/
+POST → http://mutantdnaapplication-env.eba-9wsiawyb.us-east-2.elasticbeanstalk.com/mutant/
 {
 “dna”:["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]
 }
 
-GET → http://mutantdnaapi-env.eba-h4xceyuc.us-east-2.elasticbeanstalk.com/stats/
+GET → http://mutantdnaapplication-env.eba-9wsiawyb.us-east-2.elasticbeanstalk.com/stats/
 
 
 
