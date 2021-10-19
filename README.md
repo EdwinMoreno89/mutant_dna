@@ -55,11 +55,13 @@ Ejecute una petición GET para obtener las estadisticas de las cadenas de ADN va
 # API REST GET/stats:
 ![image](https://user-images.githubusercontent.com/32916973/137903327-d1284b2a-8d82-4e2f-8a88-96efc8e4af4f.png)
 
-# API REST POST/mutant: {"dna":["AAGCTA","AGGTGC","TTATGT","TGAAGG","TCCCCT","TCACTG"]}
+# API REST POST/mutant: 
+{"dna":["AAGCTA","AGGTGC","TTATGT","TGAAGG","TCCCCT","TCACTG"]}
 Ejecute una petición POST con una cadena de caracteres Mutante para obtener un Http code 200 Ok y el registro en base de datos en caso que no exista.
 ![image](https://user-images.githubusercontent.com/32916973/137903482-0825d555-caa9-4592-a390-178652b23015.png)
 
-# API REST POST/mutant: {"dna":["ATGCGA","CAGTGC","TTATTT","AGACGG","GCGTCA","TCACTG"]}
+# API REST POST/mutant: 
+{"dna":["ATGCGA","CAGTGC","TTATTT","AGACGG","GCGTCA","TCACTG"]}
 Ejecute una petición POST con una cadena de caracteres No Mutante para obtener un Http code 403 Forbiden y el registro en base de datos en caso que no exista.
 ![image](https://user-images.githubusercontent.com/32916973/137904006-80b12087-00c9-46f2-86f2-1c52fdf163c5.png)
 
