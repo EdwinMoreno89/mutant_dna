@@ -78,12 +78,12 @@ Ejecute una petición POST con una cadena de caracteres No Mutante para obtener 
 
 ### endPoint Api desplegada en aws elastic beanstalk
 
-POST → http://mutantdnaapi-env.eba-h4xceyuc.us-east-2.elasticbeanstalk.com/mutant/
+POST → http://mutantdnaapplication-env.eba-9wsiawyb.us-east-2.elasticbeanstalk.com/mutant/
 {
 “dna”:["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]
 }
 
-GET → http://mutantdnaapi-env.eba-h4xceyuc.us-east-2.elasticbeanstalk.com/stats/
+GET → http://mutantdnaapplication-env.eba-9wsiawyb.us-east-2.elasticbeanstalk.com/stats/
 
 
 
